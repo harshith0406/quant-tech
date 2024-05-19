@@ -1,0 +1,12 @@
+Assignment -1
+Character is an alphabet or not
+uppercase lowercase or special character
+#swap two numbers using bitwise operator
+read radius and calculate area of circle
+
+#sum of n natural numbers
+sum of numbers in a given range
+sum of digits of number
+factorial of given number
+given number prime or not
+given number is Armstrong number or not
