@@ -12,5 +12,5 @@ int main()
   //   a /= 10;
   // }
   // printf("count is %d", count);
-  printf("number=%d", ((int)(floor(log10(a)))+1));
+  printf("number=%d", ((int)(floor(log10(a))) + 1));
 }
