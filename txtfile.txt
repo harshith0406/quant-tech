@@ -1,0 +1,3 @@
+length= how many elements in the array that are initialized
+size=total memory size of the array
+capacity=total elements that a array can be allocated
