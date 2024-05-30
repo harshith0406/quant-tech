@@ -60,6 +60,7 @@
     ".fantomasignore": "ignore",
     "stdio.h": "c",
     "iostream": "cpp",
-    "random": "c"
+    "random": "c",
+    "ostream": "cpp"
   }
 }
