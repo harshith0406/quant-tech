@@ -8,24 +8,28 @@ int bin(vector<int> &v, int start, int end, int target)
   {
     return -1;
   }
-  
-    if (v[mid] == target) {
-        return mid;
-    }
-    // Check the element just before the middle element
-    if (mid > start && v[mid - 1] == target) {
-        return mid - 1;
-    }
-    // Check the element just after the middle element
-    if (mid < end && v[mid + 1] == target) {
-        return mid + 1;
-    }
 
-    if (v[mid] > target) {
-        return bin(v, start, mid - 2, target);
-    }
+  if (v[mid] == target)
+  {
+    return mid;
+  }
 
-    return bin(v, mid + 2, end, target);
+  if (mid > start && v[mid - 1] == target)
+  {
+    return mid - 1;
+  }
+
+  if (mid < end && v[mid + 1] == target)
+  {
+    return mid + 1;
+  }
+
+  if (v[mid] > target)
+  {
+    return bin(v, start, mid - 2, target);
+  }
+
+  return bin(v, mid + 2, end, target);
 }
 int main()
 {

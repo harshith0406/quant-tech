@@ -18,7 +18,7 @@ int bin(vector<int> &v, int start, int end)
     }
   }
   else
-  return bin(v, mid + 1, end);
+    return bin(v, mid + 1, end);
   return ans;
 }
 int main()
