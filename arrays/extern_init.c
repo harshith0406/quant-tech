@@ -1,0 +1,1 @@
+int globalvar=34;
