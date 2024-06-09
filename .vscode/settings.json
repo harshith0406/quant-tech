@@ -61,6 +61,9 @@
     "stdio.h": "c",
     "iostream": "cpp",
     "random": "c",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "chrono": "c",
+    "limits": "c",
+    "valarray": "c"
   }
 }

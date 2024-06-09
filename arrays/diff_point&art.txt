@@ -1,0 +1,5 @@
+discretion betweeen a point and arr
+->an array has memory allocated to it and a pointer may or may not have memory allocated 
+->&array return the adress of the first element of the array and not the address of the array variable whereas &ptr gives the adress of the ptr variable and not the first element of the array
+->if &array is returning any other adresses than the first element of the array then we call it as the array decay.
+->explore more

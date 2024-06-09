@@ -35,12 +35,16 @@ int main()
    *The malloc() function allocates size bytes and returns a pointer to the allocated memory
    *The memory is not initialized
    *If size is 0, then malloc() returns a unique pointer value that can later be successfully passed to free()
-  */
-  int *ptr = (int *)calloc(n, sizeof(int));
+   */
+  // int *ptr = (int *)calloc(n, sizeof(int));
   /*
    *The calloc() function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
    *The memory is set to zero.  If nmemb or size is 0, then calloc() returns a unique pointer value that can later be successfully passed to free()
-  */
+   */
+  if(arr==NULL){
+    printf("memory allocation failed");
+  }//memory allocation failed in this case
+  
   printf("enter the elements of the array");
   for (size_t i = 0; i < n; i++)
   {
